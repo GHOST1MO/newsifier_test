@@ -33,6 +33,12 @@ will fill the database with 100,000 record of user random data
 Then in this step every thing is ready to call the api and see the result you will need a `user ID` to call the api on it. you can choose from 1 -> 100,000 and it will work
 
 ```http
+GET http://127.0.0.1:8000/api/v1/user/{id}/karma-position?count=9
+```
+
+For Example:
+
+```http
 GET http://127.0.0.1:8000/api/v1/user/87688/karma-position?count=9
 ```
 
